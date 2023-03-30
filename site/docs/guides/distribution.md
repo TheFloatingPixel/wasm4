@@ -93,3 +93,21 @@ on the site.
 :::info Licensing
 Carts on wasm4.org are protected under [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). As the license holder, you can also release your cart elsewhere under a different license, such as open source on GitHub.
 :::
+
+## Embed in HTML
+
+You can also embed your game on your blog or another site. Add the following code to the HTML, and replace the (link) with the correct URL pointing to your cartridge.
+
+```html
+<iframe 
+  src="https://wasm4.org/embed/#?url=(link)" 
+  allow="fullscreen; gamepad; autoplay" 
+  frameborder="0">
+</iframe>
+```
+
+You can host the cartridge yourself, or if your game is published on wasm4.org, you can link directly to the cart by using this link:
+
+```
+https://github.com/aduros/wasm4/raw/main/site/static/carts/(The game's ID).wasm
+```
